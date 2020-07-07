@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_choose_why_choose_us_s",
+  "info": {
+    "name": "Why Choose us?",
+    "icon": "check-circle"
+  },
+  "options": {},
+  "attributes": {
+    "Header": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    }
+  }
+}

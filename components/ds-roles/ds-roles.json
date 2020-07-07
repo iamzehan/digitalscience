@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_ds_roles_ds_roles",
+  "info": {
+    "name": "DS_Roles",
+    "icon": "chevron-circle-right"
+  },
+  "options": {},
+  "attributes": {
+    "Header": {
+      "type": "string"
+    },
+    "Descriptions": {
+      "type": "string"
+    },
+    "Points": {
+      "type": "component",
+      "repeatable": true,
+      "component": "points.points"
+    }
+  }
+}

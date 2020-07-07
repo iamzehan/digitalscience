@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_pricing_plans_plans",
+  "info": {
+    "name": "Plans",
+    "icon": "funnel-dollar"
+  },
+  "options": {},
+  "attributes": {
+    "Package": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "Amount": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "kind": "singleType",
+  "collectionName": "services",
+  "info": {
+    "name": "Services"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "banner_header": {
+      "type": "string"
+    },
+    "banner_description": {
+      "type": "string"
+    },
+    "Card": {
+      "type": "component",
+      "repeatable": true,
+      "component": "card.card"
+    },
+    "pink_banner_header": {
+      "type": "string"
+    },
+    "pink_banner_description": {
+      "type": "text"
+    },
+    "Roles": {
+      "type": "component",
+      "repeatable": true,
+      "component": "roles.roles"
+    },
+    "lower_mid_header": {
+      "type": "string"
+    },
+    "lower_mid_description": {
+      "type": "text"
+    },
+    "l_card": {
+      "type": "component",
+      "repeatable": true,
+      "component": "card.card"
+    },
+    "lower_section": {
+      "type": "component",
+      "repeatable": true,
+      "component": "ds-roles.ds-roles"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "blogs",
+  "info": {
+    "name": "Blog"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "Attactments": {
+      "type": "component",
+      "repeatable": true,
+      "component": "media.attachment"
+    }
+  }
+}

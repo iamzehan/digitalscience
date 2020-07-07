@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_points_points",
+  "info": {
+    "name": "Points",
+    "icon": "hand-point-right"
+  },
+  "options": {},
+  "attributes": {
+    "Points": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_service_card_service_cards",
+  "info": {
+    "name": "Service_Card",
+    "icon": "briefcase"
+  },
+  "options": {},
+  "attributes": {
+    "Logo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    }
+  }
+}

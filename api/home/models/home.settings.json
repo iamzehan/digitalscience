@@ -1,0 +1,41 @@
+{
+  "kind": "singleType",
+  "collectionName": "Home",
+  "info": {
+    "name": "Home"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "banner_header": {
+      "type": "string"
+    },
+    "banner_description": {
+      "type": "text"
+    },
+    "mid_section_header": {
+      "type": "string"
+    },
+    "mid_section_description": {
+      "type": "text"
+    },
+    "card": {
+      "type": "component",
+      "repeatable": true,
+      "component": "card.card"
+    },
+    "lower_mid_header": {
+      "type": "string"
+    },
+    "lower_mid_description": {
+      "type": "text"
+    },
+    "choose_us_for": {
+      "type": "component",
+      "repeatable": true,
+      "component": "choose.why-choose-us"
+    }
+  }
+}

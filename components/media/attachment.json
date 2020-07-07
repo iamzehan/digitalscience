@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_media_attachments",
+  "info": {
+    "name": "Attachment",
+    "icon": "folder"
+  },
+  "options": {},
+  "attributes": {
+    "Files": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "files",
+        "images",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

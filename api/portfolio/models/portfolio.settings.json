@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "portfolios",
+  "info": {
+    "name": "Portfolio"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Portfolio": {
+      "type": "component",
+      "repeatable": true,
+      "component": "portfolio.portfolio"
+    }
+  }
+}

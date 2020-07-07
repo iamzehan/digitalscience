@@ -1,0 +1,29 @@
+{
+  "kind": "singleType",
+  "collectionName": "pricings",
+  "info": {
+    "name": "Pricing"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Banner_Header": {
+      "type": "string"
+    },
+    "Banner_Description": {
+      "type": "string"
+    },
+    "Services": {
+      "type": "component",
+      "repeatable": true,
+      "component": "service-card.service-card"
+    },
+    "Plans": {
+      "type": "component",
+      "repeatable": true,
+      "component": "pricing-plans.plans"
+    }
+  }
+}
