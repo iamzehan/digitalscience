@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "key_people",
+  "info": {
+    "name": "Key People"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "role": {
+      "type": "string"
+    },
+    "facebook": {
+      "type": "string"
+    },
+    "twitter": {
+      "type": "string"
+    },
+    "linkedin": {
+      "type": "string"
+    },
+    "mail": {
+      "type": "string"
+    }
+  }
+}
