@@ -2,7 +2,7 @@ module.exports = {
   //...
   settings: {
     cors: {
-      origin: 'http://localhost',
+      origin: 'http://digitalseo.herokuapp.com',
     },
   },
 };
