@@ -15,11 +15,6 @@
     "banner_description": {
       "type": "string"
     },
-    "Card": {
-      "type": "component",
-      "repeatable": true,
-      "component": "card.card"
-    },
     "pink_banner_header": {
       "type": "string"
     },
@@ -46,6 +41,11 @@
       "type": "component",
       "repeatable": true,
       "component": "ds-roles.ds-roles"
+    },
+    "Services_card": {
+      "type": "component",
+      "repeatable": true,
+      "component": "service-card.service-card"
     }
   }
 }
