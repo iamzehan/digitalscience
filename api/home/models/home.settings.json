@@ -32,9 +32,9 @@
     "lower_mid_description": {
       "type": "text"
     },
-    "choose_us_for": {
+    "Choose_us_for": {
       "type": "component",
-      "repeatable": false,
+      "repeatable": true,
       "component": "choose.why-choose-us"
     }
   }
