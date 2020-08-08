@@ -34,7 +34,7 @@
     },
     "choose_us_for": {
       "type": "component",
-      "repeatable": true,
+      "repeatable": false,
       "component": "choose.why-choose-us"
     }
   }
