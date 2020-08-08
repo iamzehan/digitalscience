@@ -2,7 +2,7 @@
   "provider": "cloudinary",
   "providerOptions": {
     "cloud_name": "somikoron-it-services",
-    "api_key": 957312457691442,
+    "api_key":957312457691442,
     "api_secret": "YmCv1Zf8uySOEn3ceNgbc0AsTBo"
   }
 }
