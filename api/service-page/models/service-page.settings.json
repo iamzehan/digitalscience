@@ -1,0 +1,29 @@
+{
+  "kind": "singleType",
+  "collectionName": "service_page",
+  "info": {
+    "name": "Service Page"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Banner_Header": {
+      "type": "string"
+    },
+    "Banner_Description": {
+      "type": "string"
+    },
+    "Services": {
+      "type": "component",
+      "repeatable": true,
+      "component": "services.services"
+    },
+    "Content": {
+      "type": "component",
+      "repeatable": true,
+      "component": "content.content"
+    }
+  }
+}
