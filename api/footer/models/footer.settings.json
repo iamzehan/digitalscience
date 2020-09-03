@@ -1,21 +1,21 @@
 {
   "kind": "singleType",
-  "collectionName": "portfolios",
+  "collectionName": "footers",
   "info": {
-    "name": "Portfolio"
+    "name": "Footer"
   },
   "options": {
     "increments": true,
     "timestamps": true
   },
   "attributes": {
-    "Portfolio": {
+    "Description": {
+      "type": "text"
+    },
+    "footer_contacts": {
       "type": "component",
       "repeatable": true,
-      "component": "portfolio.portfolio"
-    },
-    "Description": {
-      "type": "string"
+      "component": "footer-contacts.footer-contacts"
     }
   }
 }

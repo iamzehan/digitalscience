@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_contacts_contacts",
+  "info": {
+    "name": "Contacts",
+    "icon": "archive"
+  },
+  "options": {},
+  "attributes": {
+    "Email": {
+      "type": "email"
+    },
+    "Phone": {
+      "type": "string",
+      "default": "+880",
+      "regex": "^[+]*[(]{0,1}[0-9]{1,4}[)]{0,1}[-\\s\\./0-9]*$",
+      "maxLength": 14
+    }
+  }
+}

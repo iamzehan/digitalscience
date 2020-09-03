@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_footer_contacts_footer_contacts",
+  "info": {
+    "name": "footer_contacts",
+    "icon": "book"
+  },
+  "options": {},
+  "attributes": {
+    "Phone": {
+      "type": "string",
+      "default": "+880"
+    },
+    "Email": {
+      "type": "email"
+    }
+  }
+}
