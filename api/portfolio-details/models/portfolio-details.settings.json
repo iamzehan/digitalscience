@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "portfolio_details",
+  "info": {
+    "name": "Portfolio-Details"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "imgsrc": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "url_name": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "projects": {
+      "type": "biginteger"
+    }
+  }
+}

@@ -9,13 +9,17 @@
     "timestamps": true
   },
   "attributes": {
-    "Portfolio": {
-      "type": "component",
-      "repeatable": true,
-      "component": "portfolio.portfolio"
-    },
     "Description": {
+      "type": "text"
+    },
+    "Title": {
       "type": "string"
+    },
+    "portfolio": {
+      "type": "dynamiczone",
+      "components": [
+        "portfolio.portfolio"
+      ]
     }
   }
 }
