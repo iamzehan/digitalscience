@@ -9,34 +9,13 @@
     "timestamps": true
   },
   "attributes": {
-    "imgsrc": {
-      "collection": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ],
-      "plugin": "upload",
-      "required": false
-    },
-    "title": {
-      "type": "string"
-    },
-    "description": {
-      "type": "text"
-    },
-    "url_name": {
-      "type": "string"
-    },
-    "url": {
+    "category_name": {
       "type": "string"
     },
     "projects": {
-      "type": "biginteger"
-    },
-    "project_name": {
-      "type": "string"
+      "type": "component",
+      "repeatable": true,
+      "component": "projects.projects"
     }
   }
 }

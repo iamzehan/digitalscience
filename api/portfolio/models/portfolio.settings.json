@@ -15,11 +15,14 @@
     "Title": {
       "type": "string"
     },
-    "portfolio": {
-      "type": "dynamiczone",
-      "components": [
-        "portfolio.portfolio"
-      ]
+    "video_title": {
+      "type": "string"
+    },
+    "video_description": {
+      "type": "text"
+    },
+    "video_URL": {
+      "type": "string"
     }
   }
 }
